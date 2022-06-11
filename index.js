@@ -1,5 +1,3 @@
-// user: Rasel
-// hjdFKU7yJKkXS0d6
 const express = require('express');
 const cors = require('cors');
 // environment variable setup
@@ -54,7 +52,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send("Running Genius Server");
+    res.send("Running Dashboard Server");
 });
 
 app.listen(port, () => {
